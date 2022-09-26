@@ -2,11 +2,115 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML Academy: Седона. Берестов Александр</title>
   </head>
   <body>
+    <header class="main-header">
+      <!-- Шапка сайта -->
+      <a href="#" class="logo">
+       <img src="img.png" alt="Логотип нашей компании">
+      </a>
+      <nav class="top">
+       <ul class="top-list">
+        <li class="top-item"><a href="#"></a>Главная</li>
+        <li class="top-item"><a href="#"></a>О Седоне</li>
+        <li class="top-item"><a href="#"></a>Гостиницы</li>
+       </ul>
+      </nav>
+      <form action="#" method="POST">
+        <input type="search" placeholder="Поиск:"> <!-- Строка поиска -->
+      </form>
+      <a href="#" class="search"></a>
+      <a href="#" class="like"></a>
+      <button class="interest">Хочу сюда</button>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+    </header>
+    <main>
+      <!-- Элементы текста поверх бэкграунд изображения -->
+      <img src="img.jpeg" alt="Виды Седоны"> <!--Бэкграунд изображение-->
+      <div class="top-head">
+       <p>WELCOME</p>
+       <p>- to the gorgeous -</p>
+       <p>SEDONA</p>
+       <p>"Because the Grand <br> Canyon sucks!"</p>
+      </div>
+      <!---->
+      <div class="top-level">
+        <p class="must-see">Седона — небольшой городок в Аризоне,<br>
+          заслуживающий большего!</p>
+        <p class="must-see-go">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+      </div>
 
+      <!--Блок Настоящий городок с фото-->
+      <div class="backgroung-blue">
+        <p>Настоящий<br>городок</p>
+        <p>Седона — не аттракцион для <br> туристов, там течёт своя <br> жизнь</p>
+        <img src="img.jpeg" alt="Вид на горы">
+      </div>
+
+
+      <!--Блок преимуществ-->
+      <div class="second-block">
+        <ul class="without-logo">
+          <li class="without-logo-top">НЕБОЛЬШАЯ <br> ПЛОЩАДЬ</li>
+          <li class="without-logo-bot">Все достопримечательности <br> находятся очень близко</li>
+          <li class="without-logo-top">КРАСИВАЯ <br> ДОРОГА</li>
+          <li class="without-logo-bot">Ехать в Седону из Лас-Вегаса <br> совсем не скучно!</li>
+          <li class="without-logo-top">МАЛО <br> ТУРИСТОВ</li>
+          <li class="without-logo-bot">Большинство едет в Гранд <br> Каньон и толпится там</li>
+        </ul>
+      </div>
+
+      <!--Блок Мост дьявола-->
+      <div class="backgroung-blue">
+        <img src="img.jpeg" alt="Вид на Каньон">
+        <p>ТАМ ЕСТЬ<br>МОСТ ДЬЯВОЛА--</p>
+        <p>Да, по нему можно пройти! <br> Если вы осмелитесь, <br> разумеется</p>
+      </div>
+
+      <!--Блок Жилье еда сувениры-->
+      <div class="third-block">
+          <img src="img.jpeg" alt="home">
+          <p class="third-block-home-top">Жильё</p>
+          <p class="third-block-home-bot">Рекомендуем пожить <br> в настоящем мотеле, <br> всё как в кино!</p>
+          <img src="img.jpeg" alt="food">
+          <p class="third-block-home-top">Еда</p>
+          <p class="third-block-home-bot">Рекомендуем пожить <br> в настоящем мотеле, <br> всё как в кино!</p>
+          <img src="img.jpeg" alt="souvenir">
+          <p class="third-block-home-top">Сувениры</p>
+          <p class="third-block-home-bot">Рекомендуем пожить <br> в настоящем мотеле, <br> всё как в кино!</p>
+      </div>
+
+      <!--Блок Заинтересовались?-->
+      <div class="four-block">
+        <p class="must-see">Заинтересовались?</p>
+        <p class="must-see-go">Укажите предполагаемые даты поездки, <br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <form class="search-hotel"><a href="#" class="search-hotel-go"></a>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</form>
+      </div>
+
+      <!--Блок рассылки-->
+      <div class="info">
+        <img src="img.jpeg" alt="Горы">
+        <ul class="info-block">
+          <li class="info-block-txt-top">Подпишитесь на рассылку</li>
+          <li class="info-block-txt-bot">Только полезная информация и никакого спама, <br> честное бойскаутское!</li>
+        </ul>
+        <form action="#" method="post">
+          <input type="email" placeholder="Ваш e-mail">
+          <button type="submit" class="blue-button">Подписаться</button>
+        </form>
+      </div>
+
+    </main>
+    <footer class="main-footer"> <!-- Подвал сайта -->
+      <div class="bottom-block">
+        <a href="#" class="social-logo-vk"><img src="img.png" alt="Наш ВКонтакте"></a>
+        <a href="#" class="social-logo-tg"><img src="img.png" alt="Наш Telegram"></a>
+        <a href="#" class="social-logo-yt"><img src="img.png" alt="Наш Youtube"></a>
+        <p class="phone-number">+7 (812) 812-12-12</p>
+        <a href="https://htmlacademy.ru/"><img src="img.png" alt="Наш сайт"></a>
+      </div>
+    </footer>
   </body>
 </html>
