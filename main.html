@@ -8,32 +8,27 @@
   <body>
     <header class="main-header">
       <!-- Шапка сайта -->
-      <a href="#" class="logo">
-       <img src="img.png" alt="Логотип нашей компании">
+      <a href="#" class="main-header-logo">
+       <img src="img/logo.svg" alt="Логотип сайта городка Седона">
       </a>
       <nav class="top">
        <ul class="top-list">
-        <li class="top-item"><a href="#"></a>Главная</li>
-        <li class="top-item"><a href="#"></a>О Седоне</li>
-        <li class="top-item"><a href="#"></a>Гостиницы</li>
+        <li class="top-item"><a href="catalog.html">Главная</a></li>
+        <li class="top-item"><a href="catalog.html">О Седоне</a></li>
+        <li class="top-item"><a href="catalog.html">Гостиницы</a></li>
        </ul>
       </nav>
-      <form action="#" method="POST">
-        <input type="search" placeholder="Поиск:"> <!-- Строка поиска -->
-      </form>
+
       <a href="#" class="search"></a>
       <a href="#" class="like"></a>
-      <button class="interest">Хочу сюда</button>
+      <a href="catalog.html" class="interest">Хочу сюда</a>
 
     </header>
     <main>
       <!-- Элементы текста поверх бэкграунд изображения -->
-      <img src="img.jpeg" alt="Виды Седоны"> <!--Бэкграунд изображение-->
+
       <div class="top-head">
-       <p>WELCOME</p>
-       <p>- to the gorgeous -</p>
-       <p>SEDONA</p>
-       <p>"Because the Grand <br> Canyon sucks!"</p>
+        <img src="img.jpeg" alt="WELCOME">
       </div>
       <!---->
       <div class="top-level">
@@ -64,7 +59,6 @@
 
       <!--Блок Мост дьявола-->
       <div class="backgroung-blue">
-        <img src="img.jpeg" alt="Вид на Каньон">
         <p>ТАМ ЕСТЬ<br>МОСТ ДЬЯВОЛА--</p>
         <p>Да, по нему можно пройти! <br> Если вы осмелитесь, <br> разумеется</p>
       </div>
@@ -86,17 +80,14 @@
       <div class="four-block">
         <p class="must-see">Заинтересовались?</p>
         <p class="must-see-go">Укажите предполагаемые даты поездки, <br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <form class="search-hotel"><a href="#" class="search-hotel-go"></a>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</form>
+        <p><a href="#" class="search-hotel-go">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a></p>
       </div>
 
       <!--Блок рассылки-->
       <div class="info">
-        <img src="img.jpeg" alt="Горы">
-        <ul class="info-block">
-          <li class="info-block-txt-top">Подпишитесь на рассылку</li>
-          <li class="info-block-txt-bot">Только полезная информация и никакого спама, <br> честное бойскаутское!</li>
-        </ul>
-        <form action="#" method="post">
+         <p>Подпишитесь на рассылку</p>
+         <p>Только полезная информация и никакого спама, <br> честное бойскаутское!</p>
+        <form action="https://echo.htmlacademy.ru" method="post">
           <input type="email" placeholder="Ваш e-mail">
           <button type="submit" class="blue-button">Подписаться</button>
         </form>
@@ -104,13 +95,13 @@
 
     </main>
     <footer class="main-footer"> <!-- Подвал сайта -->
-      <div class="bottom-block">
-        <a href="#" class="social-logo-vk"><img src="img.png" alt="Наш ВКонтакте"></a>
-        <a href="#" class="social-logo-tg"><img src="img.png" alt="Наш Telegram"></a>
-        <a href="#" class="social-logo-yt"><img src="img.png" alt="Наш Youtube"></a>
-        <p class="phone-number">+7 (812) 812-12-12</p>
-        <a href="https://htmlacademy.ru/"><img src="img.png" alt="Наш сайт"></a>
-      </div>
+<ul>
+      <li><a href="#" class="social-logo-vk"><img src="img.png" alt="Наш ВКонтакте"></a></li>
+      <li><a href="#" class="social-logo-tg"><img src="img.png" alt="Наш Telegram"></a></li>
+      <li><a href="#" class="social-logo-yt"><img src="img.png" alt="Наш Youtube"></a></li>
+      <li> +7 (812) 812-12-12</li>
+      <li><a href="https://htmlacademy.ru/"><img src="img.png" alt="Наш сайт"></a></li>
+</ul>
     </footer>
   </body>
 </html>
